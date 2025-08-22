@@ -1,0 +1,11 @@
+{
+  "// Claude Code MCP Configuration": "Add to your Claude Code MCP settings",
+  "mcpServers": {
+    "jdss-rest-documentation": {
+      "command": "jdss-rest-doc-mcp",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

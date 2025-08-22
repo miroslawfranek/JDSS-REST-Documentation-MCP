@@ -1,0 +1,47 @@
+{
+  "name": "@open-e/jdss-rest-doc-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Open-E JovianDSS REST API documentation access",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "jdss-rest-doc-mcp": "./index.js",
+    "jdss-rest-doc": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "explore": "node cli.js explore",
+    "test": "node cli.js test",
+    "demo": "node cli.js demo",
+    "install-global": "./install.sh"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "keywords": [
+    "mcp",
+    "jdss",
+    "jovian-dss", 
+    "open-e",
+    "documentation",
+    "api-docs",
+    "claude",
+    "rest-api",
+    "storage",
+    "zfs"
+  ],
+  "author": "Open-E, Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miroslawfranek/JDSS-REST-Documentation-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miroslawfranek/JDSS-REST-Documentation-MCP/issues"
+  },
+  "homepage": "https://github.com/miroslawfranek/JDSS-REST-Documentation-MCP#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
