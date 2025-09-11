@@ -1,7 +1,7 @@
 {
   "name": "@open-e/jdss-rest-doc-mcp-server",
-  "version": "1.0.0",
-  "description": "MCP server for Open-E JovianDSS REST API documentation access",
+  "version": "1.1.0",
+  "description": "MCP server for Open-E JovianDSS REST API documentation access with dynamic discovery and jQuery processing",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,9 @@
     "install-global": "./install.sh"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.4.0"
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "jszip": "^3.10.1",
+    "jsdom": "^22.1.0"
   },
   "keywords": [
     "mcp",
@@ -29,7 +31,10 @@
     "claude",
     "rest-api",
     "storage",
-    "zfs"
+    "zfs",
+    "jquery",
+    "dynamic-discovery",
+    "zip-processing"
   ],
   "author": "Open-E, Inc.",
   "license": "MIT",
