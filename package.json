@@ -1,5 +1,5 @@
 {
-  "name": "@open-e/jdss-rest-doc-mcp-server",
+  "name": "@miroslaw.franek/jdss-rest-doc-mcp-server",
   "version": "1.1.0",
   "description": "MCP server for Open-E JovianDSS REST API documentation access with dynamic discovery and jQuery processing",
   "type": "module",
